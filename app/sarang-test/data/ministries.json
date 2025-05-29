@@ -1,0 +1,17 @@
+[
+  { "id": "kids", "name": "유아부", "description": "아이들의 첫 신앙을 함께하는 사역입니다." },
+  { "id": "sundaySchool", "name": "주일학교", "description": "초등학생들의 신앙 성장을 돕는 교육 사역입니다." },
+  { "id": "media", "name": "미디어팀", "description": "영상, 디자인, 웹 등으로 교회를 섬기는 팀입니다." },
+  { "id": "sound", "name": "음향팀", "description": "예배의 소리를 책임지는 테크 사역입니다." },
+  { "id": "welcome", "name": "환영팀", "description": "처음 온 분들을 따뜻하게 맞이하는 사역입니다." },
+  { "id": "newFamily", "name": "새가족팀", "description": "새가족의 정착을 돕고 이끌어주는 팀입니다." },
+  { "id": "smallGroup", "name": "소그룹팀", "description": "소그룹 활동을 이끌고 관리하는 팀입니다." },
+  { "id": "praise", "name": "찬양팀", "description": "예배의 앞자리에서 찬양으로 섬기는 팀입니다." },
+  { "id": "admin", "name": "행정팀", "description": "예배와 행사를 뒷받침하는 행정 사역입니다." },
+  { "id": "prayer", "name": "기도팀", "description": "공동체를 위해 기도로 중보하는 사역입니다." },
+  { "id": "devotion", "name": "묵상팀", "description": "말씀과 묵상으로 섬기는 조용한 사역입니다." },
+  { "id": "youth", "name": "청년부", "description": "청년들을 위한 예배와 활동을 이끄는 팀입니다." },
+  { "id": "evangelism", "name": "전도팀", "description": "복음을 전하고 이웃을 섬기는 전도 사역입니다." },
+  { "id": "cook", "name": "주방봉사팀", "description": "식사로 섬기며 사랑을 나누는 팀입니다." },
+  { "id": "facility", "name": "시설관리팀", "description": "공간과 장비를 정리하고 관리하는 사역입니다." }
+]

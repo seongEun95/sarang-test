@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "어떤 봉사 형태가 가장 끌리나요?",
+    "options": [
+      { "text": "아이들과 함께 놀기", "scores": ["kids", "sundaySchool"] },
+      { "text": "기술로 섬기기", "scores": ["media", "sound"] },
+      { "text": "사람을 따뜻하게 맞이하기", "scores": ["welcome", "newFamily"] }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "사람들과 함께 있을 때 어떤가요?",
+    "options": [
+      { "text": "에너지가 생긴다", "scores": ["smallGroup", "praise"] },
+      { "text": "중간이다", "scores": ["admin"] },
+      { "text": "혼자가 편하다", "scores": ["prayer", "devotion"] }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "하루 중 가장 집중이 잘 되는 시간은?",
+    "options": [
+      { "text": "아침", "scores": ["prayer", "devotion"] },
+      { "text": "낮", "scores": ["admin", "facility"] },
+      { "text": "밤", "scores": ["media", "sound"] }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "교회에서 가장 해보고 싶은 역할은?",
+    "options": [
+      { "text": "예배 인도", "scores": ["praise", "smallGroup"] },
+      { "text": "아이 돌봄", "scores": ["kids", "sundaySchool"] },
+      { "text": "기술 지원", "scores": ["media", "sound"] }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "말보다 행동이 중요하다고 생각하나요?",
+    "options": [
+      { "text": "그렇다", "scores": ["facility", "cook"] },
+      { "text": "상황에 따라 다르다", "scores": ["admin"] },
+      { "text": "아니다", "scores": ["prayer", "devotion"] }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "처음 보는 사람에게 말을 잘 거는 편인가요?",
+    "options": [
+      { "text": "그렇다", "scores": ["welcome", "newFamily"] },
+      { "text": "가끔 그렇다", "scores": ["smallGroup"] },
+      { "text": "어렵다", "scores": ["devotion"] }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "팀워크와 개인작업 중 어떤 게 더 편한가요?",
+    "options": [
+      { "text": "팀워크", "scores": ["smallGroup", "welcome"] },
+      { "text": "상황에 따라 다르다", "scores": ["admin"] },
+      { "text": "개인작업", "scores": ["devotion", "prayer"] }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "주말에 봉사 시간이 생긴다면?",
+    "options": [
+      { "text": "바쁘더라도 참여한다", "scores": ["praise", "evangelism"] },
+      { "text": "가능하면 참여한다", "scores": ["admin", "cook"] },
+      { "text": "쉬고 싶다", "scores": ["prayer", "devotion"] }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "공동체를 위한 기도에 자주 참여하나요?",
+    "options": [
+      { "text": "자주 한다", "scores": ["prayer", "devotion"] },
+      { "text": "가끔 한다", "scores": ["admin"] },
+      { "text": "거의 안 한다", "scores": ["media"] }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "예배 후, 어떤 활동이 좋나요?",
+    "options": [
+      { "text": "새가족 환영하기", "scores": ["newFamily", "welcome"] },
+      { "text": "아이들과 놀기", "scores": ["kids"] },
+      { "text": "장비 정리", "scores": ["sound", "facility"] }
+    ]
+  }
+]
