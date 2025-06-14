@@ -1,70 +1,67 @@
+"use client";
+
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image className="dark:invert" src="/next.svg" alt="Next.js logo" width={180} height={38} priority />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em] text-red-500">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">Save and see your changes instantly.</li>
-        </ol>
+  const router = useRouter();
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image className="dark:invert" src="/vercel.svg" alt="Vercel logomark" width={20} height={20} />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  return (
+    <>
+      <main className="min-h-screen bg-[#fff4e6]">
+        {/* Hero Section */}
+        <div className="container mx-auto px-4 py-16 pb-30">
+          <h2 className="text-2xl text-center font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-8">
+            개발팀 소개
+          </h2>
+          <div className="flex flex-col items-center text-center">
+            <Image src="/light-code.png" alt="LightCode Logo" width={200} height={200} className="mb-8" />
+
+            <h1 className="text-4xl md:text-6xl py-4 font-bold bg-gradient-to-r from-orange-500 to-yellow-400 bg-clip-text text-transparent">
+              LightCode
+            </h1>
+
+            <p className="text-lg md:text-2xl text-gray-600 italic mb-8">&quot;코드로 세상에 빛을 비추자&quot;</p>
+
+            <div className="max-w-3xl mx-auto">
+              <div className="bg-blue-50 rounded-lg p-6 mb-12">
+                <h2 className="text-xl font-semibold text-blue-900 mb-3">기반 말씀</h2>
+                <p className="text-gray-700">
+                  &quot;너희는 세상의 빛이라 산 위에 있는 동네가 숨겨지지 못할 것이요&quot;
+                  <span className="block text-sm mt-1">- 마태복음 5장 14절</span>
+                </p>
+              </div>
+
+              <div className="grid gap-8 md:grid-cols-2 mb-12">
+                <div className="bg-gradient-to-br from-white to-blue-50 backdrop-blur-sm border border-white/20 shadow-lg rounded-2xl p-4 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
+                  <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">
+                    팀 소개
+                  </h2>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed break-keep">
+                    LightCode(라이트코드)는 마태복음 5장 14절 말씀과 개발 코드를 결합한 크리스천 개발팀입니다. IT 기술로
+                    교회와 세상을 섬기는 것을 목표로 하며, 각자의 달란트를 통해 섬기고 실력이 아닌 주님을 바라보는 팀을
+                    지향합니다.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-white to-purple-50 backdrop-blur-sm border border-white/20 shadow-lg rounded-2xl p-4 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
+                  <h2 className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
+                    비전
+                  </h2>
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed break-keep">
+                    IT 기술을 통해 복음을 전파하고 교회를 섬기는 것이 우리의 비전입니다. 기술의 발전이 더 많은 이들에게
+                    복음을 전하는 도구가 되기를 소망합니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <Button variant="custom" className="w-full max-w-md py-6" onClick={() => router.push("/sarang-test")}>
+            사역국 찾기 테스트 하러가기
+          </Button>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image aria-hidden src="/file.svg" alt="File icon" width={16} height={16} />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image aria-hidden src="/window.svg" alt="Window icon" width={16} height={16} />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image aria-hidden src="/globe.svg" alt="Globe icon" width={16} height={16} />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    </>
   );
 }

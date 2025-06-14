@@ -1,17 +1,146 @@
 [
-  { "id": "kids", "name": "유아부", "description": "아이들의 첫 신앙을 함께하는 사역입니다." },
-  { "id": "sundaySchool", "name": "주일학교", "description": "초등학생들의 신앙 성장을 돕는 교육 사역입니다." },
-  { "id": "media", "name": "미디어팀", "description": "영상, 디자인, 웹 등으로 교회를 섬기는 팀입니다." },
-  { "id": "sound", "name": "음향팀", "description": "예배의 소리를 책임지는 테크 사역입니다." },
-  { "id": "welcome", "name": "환영팀", "description": "처음 온 분들을 따뜻하게 맞이하는 사역입니다." },
-  { "id": "newFamily", "name": "새가족팀", "description": "새가족의 정착을 돕고 이끌어주는 팀입니다." },
-  { "id": "smallGroup", "name": "소그룹팀", "description": "소그룹 활동을 이끌고 관리하는 팀입니다." },
-  { "id": "praise", "name": "찬양팀", "description": "예배의 앞자리에서 찬양으로 섬기는 팀입니다." },
-  { "id": "admin", "name": "행정팀", "description": "예배와 행사를 뒷받침하는 행정 사역입니다." },
-  { "id": "prayer", "name": "기도팀", "description": "공동체를 위해 기도로 중보하는 사역입니다." },
-  { "id": "devotion", "name": "묵상팀", "description": "말씀과 묵상으로 섬기는 조용한 사역입니다." },
-  { "id": "youth", "name": "청년부", "description": "청년들을 위한 예배와 활동을 이끄는 팀입니다." },
-  { "id": "evangelism", "name": "전도팀", "description": "복음을 전하고 이웃을 섬기는 전도 사역입니다." },
-  { "id": "cook", "name": "주방봉사팀", "description": "식사로 섬기며 사랑을 나누는 팀입니다." },
-  { "id": "facility", "name": "시설관리팀", "description": "공간과 장비를 정리하고 관리하는 사역입니다." }
+  {
+    "category": "한반도이웃사랑선교국",
+    "teams": [
+      {
+        "id": 1,
+        "code": "h-operation",
+        "name": "운영팀",
+        "description": "한사랑국 운영을 담당하고 있는 팀입니다.",
+        "result-img": "result-img-01.jpeg"
+      },
+      {
+        "id": 2,
+        "code": "h-yeongdeungpo",
+        "name": "영등포쪽방촌팀",
+        "description": "영등포 이웃을 섬기는 팀입니다.",
+        "result-img": "result-img-02.jpeg"
+      },
+      {
+        "id": 3,
+        "code": "h-danbi",
+        "name": "단비팀",
+        "description": "천안 단비교회를 섬기는 팀입니다.",
+        "result-img": "result-img-03.jpeg"
+      },
+      {
+        "id": 4,
+        "code": "h-tongil",
+        "name": "통일선교팀",
+        "description": "선교를 통해 복음을 전하는 팀입니다.",
+        "result-img": "result-img-04.jpeg"
+      },
+      {
+        "id": 5,
+        "code": "h-evangelism",
+        "name": "전도팀",
+        "description": "복음을 전하고 이웃을 섬기는 전도팀입니다.",
+        "result-img": "result-img-05.jpeg"
+      }
+    ]
+  },
+  {
+    "category": "양육국",
+    "teams": [
+      {
+        "id": 6,
+        "code": "y-quiet",
+        "name": "큐티학교팀",
+        "description": "제자훈련 필수학교인 큐티학교를 섬기는 팀입니다.",
+        "result-img": "result-img-06.jpeg"
+      },
+      {
+        "id": 7,
+        "code": "y-view",
+        "name": "기독교세계관팀",
+        "description": "기독교 세계관을 이해하고 섬기는 팀입니다.",
+        "result-img": "result-img-07.jpeg"
+      },
+      {
+        "id": 8,
+        "code": "y-area",
+        "name": "AQG팀",
+        "description": "지역큐티모임을 관리하고 섬기는 팀입니다.",
+        "result-img": "result-img-08.jpeg"
+      },
+      {
+        "id": 9,
+        "code": "y-spring",
+        "name": "봄팀",
+        "description": "크리스천 연애와 결혼을 섬기는 팀입니다.",
+        "result-img": "result-img-09.jpeg"
+      }
+    ]
+  },
+  {
+    "category": "운영국",
+    "teams": [
+      {
+        "id": 10,
+        "code": "m-flow",
+        "name": "F.L.O.W",
+        "description": "청년부 수양회를 섬기는 팀입니다.",
+        "result-img": "result-img-10.jpeg"
+      },
+      {
+        "id": 11,
+        "code": "m-bulletin",
+        "name": "주보팀",
+        "description": "주보를 준비하고 배포하는 팀입니다.",
+        "result-img": "result-img-11.jpeg"
+      },
+      {
+        "id": 12,
+        "code": "m-photo",
+        "name": "사진팀",
+        "description": "예배와 사역의 현장을 담는 팀입니다.",
+        "result-img": "result-img-12.jpeg"
+      }
+    ]
+  },
+  {
+    "category": "예배영성국",
+    "teams": [
+      {
+        "id": 13,
+        "code": "p-praise",
+        "name": "주일찬양팀",
+        "description": "청년부 예배 찬양을 섬기는 팀입니다.",
+        "result-img": "result-img-13.jpeg"
+      },
+      {
+        "id": 14,
+        "code": "p-road",
+        "name": "로드컴",
+        "description": "청년부 영상과 광고, 음향을 섬기는 팀입니다.",
+        "result-img": "result-img-14.jpeg"
+      },
+      {
+        "id": 15,
+        "code": "p-management",
+        "name": "운영팀",
+        "description": "예배의 운영을 섬기는 팀입니다.",
+        "result-img": "result-img-15.jpeg"
+      },
+      {
+        "id": 16,
+        "code": "p-prayer",
+        "name": "기도팀",
+        "description": "청년부를 기도로 섬기는 팀입니다.",
+        "result-img": "result-img-16.jpeg"
+      }
+    ]
+  },
+  {
+    "category": "해외선교국",
+    "teams": [
+      {
+        "id": 17,
+        "code": "a-operation",
+        "name": "운영팀",
+        "description": "선교를 통해 복음을 전하는 팀입니다.",
+        "result-img": "result-img-17.jpeg"
+      }
+    ]
+  }
 ]
