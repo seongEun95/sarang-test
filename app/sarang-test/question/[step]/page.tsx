@@ -4,8 +4,8 @@ import { notFound } from "next/navigation";
 import questions from "@/app/sarang-test/data/questions.json";
 import QuestionCard from "@/app/sarang-test/components/QuestionCard";
 import { useScore } from "@/app/sarang-test/hooks/useScore";
-import { use, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useEffect } from "react";
+import { useRouter, useParams } from "next/navigation";
 import ProgressBar from "../../components/ProgressBar";
 import ministries from "@/app/sarang-test/data/ministries.json";
 
@@ -15,9 +15,9 @@ type Question = {
   options: { text: string; scores: { [key: string]: number | undefined } }[];
 };
 
-export default function QuestionStepPage({ params }: { params: Promise<{ step: string }> }) {
-  const { step } = use(params);
-  const stepNum = parseInt(step);
+export default function QuestionStepPage() {
+  const { step } = useParams();
+  const stepNum = parseInt(step as string);
   const question: Question = questions[stepNum - 1];
   const router = useRouter();
   const { dispatch, state } = useScore();
