@@ -150,9 +150,9 @@ export default function ResultPage() {
             </Button>
             <Button
               variant="custom"
-              className="w-full h-auto py-2 bg-gradient-to-r from-blue-500/15 to-purple-500/15 text-slate-800 rounded-md hover:from-purple-600 hover:to-purple-700 transition-all"
+              className="w-full h-auto py-2 bg-gradient-to-r from-blue-500/15 to-purple-500/15 text-slate-800 rounded-md"
             >
-              <a href={`/result-img/${topImg}`} download>
+              <a className="block w-full" href={`/result-img/${topImg}`} download>
                 아멘! 순종하기
                 <br />
                 이미지 저장하기
