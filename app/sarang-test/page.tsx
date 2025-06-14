@@ -3,8 +3,13 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 export default function IntroPage() {
+  useEffect(() => { 
+    console.log("%c🚀 Developed by the LightCode Team", "font-size: 1.8rem; color: orange; font-weight: bold;");
+  }, []);
+
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-4 text-center">
       <motion.div
