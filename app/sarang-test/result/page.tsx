@@ -84,7 +84,7 @@ export default function ResultPage() {
           <motion.div
             initial={{ scale: 0.95 }}
             animate={{ scale: 1 }}
-            className="relative rounded-2xl overflow-hidden mb-12"
+            className="relative rounded-2xl overflow-hidden mb-6"
           >
             <Image
               src={`/result-img/${topImg}`}
