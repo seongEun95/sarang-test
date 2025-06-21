@@ -11,7 +11,7 @@ export default function MyTypeText({ topCategory }: { topCategory: string | unde
       myType = "R";
       break;
     case "양육국":
-      myType = "Y";
+      myType = "N";
       break;
     case "해외선교국":
       myType = "G";
